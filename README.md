@@ -1,1 +1,1 @@
-# Gemini-ScreenSync
+# DeepSeek-ScreenSync

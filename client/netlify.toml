@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+publish = "build"
+functions = "../server/netlify-functions"
+
+[[redirects]]
+  from = "/socket.io/*"
+  to = "/.netlify/functions/signaling"
+  status = 200
+  force = true
